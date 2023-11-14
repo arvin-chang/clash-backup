@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/tunnel"
+	C "github.com/fengxiaojie/clash-backup/constant"
+	"github.com/fengxiaojie/clash-backup/tunnel"
 
 	"github.com/riobard/go-shadowsocks2/socks"
 	log "github.com/sirupsen/logrus"
