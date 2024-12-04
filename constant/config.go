@@ -62,7 +62,8 @@ func init() {
 }
 
 func downloadMMDB(path string) (err error) {
-	resp, err := http.Get("http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz")
+	// resp, err := http.Get("http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz")
+	resp, err := http.Get("https://cdn.jsdelivr.net/npm/geolite2-country/GeoLite2-Country.mmdb.gz")
 	if err != nil {
 		return
 	}
